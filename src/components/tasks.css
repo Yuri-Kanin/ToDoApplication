@@ -1,0 +1,13 @@
+li {
+  position: relative;
+  font-size: 24px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.editing {
+  border-bottom: none;
+  padding: 0;
+}
