@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import TodoListItems from "./todo-list-item";
-import TodoListItemCreatedTime from "./todo-list-item-created-time";
+import TodoListItems from "../todo-list-item/todo-list-item";
+import TodoListItemCreatedTime from "../todo-list-item-created-time/todo-list-item-created-time";
 import "./todo-list-item-label.css";
 
 function TodoListItemLabel({ element }) {

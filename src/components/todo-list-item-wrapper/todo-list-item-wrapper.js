@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-import TodoListItemInput from "./todo-list-item-input";
-import TodoListItemLabel from "./todo-list-item-label";
-import TodoListItemButton from "./todo-list-item-button";
+import TodoListItemInput from "../todo-list-item-input/todo-list-item-input";
+import TodoListItemLabel from "../todo-list-item-label/todo-list-item-label";
+import TodoListItemButton from "../todo-list-item-button/todo-list-item-button";
 import "./todo-list-item-wrapper.css";
 
 function TodoListItemWrapper({

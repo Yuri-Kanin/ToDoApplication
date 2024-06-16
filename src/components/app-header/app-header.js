@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import NewTaskForm from "./new-task-form";
+import NewTaskForm from "../new-task-form/new-task-form";
 import "./app-header.css";
 
 function AppHeader({ handleInputChange }) {

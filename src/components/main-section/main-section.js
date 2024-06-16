@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import TaskList from "./task-list";
-import Footer from "./footer";
+import TaskList from "../task-list/task-list";
+import Footer from "../footer/footer";
 import "./main-section.css";
 
 function MainSection({

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import TodoListItemWrapper from "./todo-list-item-wrapper";
-import TodoListItemInputEdit from "./todo-list-item-input-edit";
+import TodoListItemWrapper from "../todo-list-item-wrapper/todo-list-item-wrapper";
+import TodoListItemInputEdit from "../todo-list-item-input-edit/todo-list-item-input-edit";
 
 import "./tasks.css";
 

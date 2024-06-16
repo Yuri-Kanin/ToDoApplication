@@ -4,7 +4,7 @@ import "./todo-list-item-input.css";
 function TodoListItemInput({ element, handleCheckboxChange }) {
   return (
     <input
-      className="toggle"
+      className={element.checked ? "toggle toggle-checked" : "toggle"}
       type="checkbox"
       id={element.id}
       onChange={handleCheckboxChange}

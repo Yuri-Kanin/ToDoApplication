@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Task from "./tasks";
+import Task from "../tasks/tasks";
 import "./task-list.css";
 
 function TaskList({
